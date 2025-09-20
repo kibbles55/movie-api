@@ -100,7 +100,7 @@ MovieAPI був створений з однією чіткою метою: **з
 }
 ```
 **GET /movies_popular**
-```
+```json
   {
     "id": 1311031,
     "title": "Вбивця Демонів: Замок Нескінченності",
@@ -119,14 +119,14 @@ MovieAPI був створений з однією чіткою метою: **з
   },
   ```
 **GET /actor/Актор 'Леонардо Ді Капріо'**
-  ```
+  ```json
 {
   "success": true,
   "message": "Актор 'Леонардо Ді Капріо' знайдений",
   "actor": {
     "id": 6193,
     "name": "Леонардо Ді Капріо",
-    "photo": "https://image.tmdb.org/t/p/w500/wo2hJpn04vbtmh0B9utCFdsQhxM.jpg",
+    "photo": "hJpn04vbtmh0B9utCFdsQhxM.jpg",
     "movies": [
       {
         "id": 454,
